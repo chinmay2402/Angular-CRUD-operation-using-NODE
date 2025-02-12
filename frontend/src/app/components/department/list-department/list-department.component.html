@@ -1,0 +1,18 @@
+<div class="container mt-4">
+    <h2>Department List</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Sr No.</th>
+          <th>Department Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dept of departments">
+          <td>{{ dept.departmentId }}</td>
+          <td>{{ dept.departmentName }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,0 +1,26 @@
+<div class="container mt-4">
+  <h2>Add Employee</h2>
+  <form (submit)="saveEmployee(); $event.preventDefault()">
+    <div class="mb-3">
+      <label for="employeeName" class="form-label">Employee Name</label>
+      <input type="text" id="employeeName" class="form-control" [(ngModel)]="employeeName" name="employeeName" required>
+
+      <label for="loginEmail" class="form-label">Login Email</label>
+      <input type="text" id="loginEmail" class="form-control" [(ngModel)]="loginEmail" name="loginEmail" required>
+
+      <label for="loginPassword" class="form-label">Login Password</label>
+      <input type="text" id="loginPassword" class="form-control" [(ngModel)]="loginPassword" name="loginPassword" required>
+      <label for="departmentId" class="form-label">Select Department</label>
+<select id="departmentId" class="form-control" [(ngModel)]="departmentId" name="departmentId" required>
+  <option value="" disabled>Choose Department</option>
+  <option *ngFor="let dept of departments" [value]="dept.departmentId">
+    {{ dept.departmentName }}
+  </option>
+</select>
+
+
+     
+    </div>
+    <button type="submit" class="btn btn-primary">Add Employee</button>
+  </form>
+</div>

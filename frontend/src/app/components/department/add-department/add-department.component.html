@@ -1,0 +1,11 @@
+<div class="container mt-4">
+    <h2>Add Department</h2>
+    <form (submit)="addDepartment(); $event.preventDefault()">
+      <div class="mb-3">
+        <label for="deptName" class="form-label">Department Name</label>
+        <input type="text" id="deptName" class="form-control" [(ngModel)]="departmentName" name="deptName" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Department</button>
+    </form>
+  </div>
+  
