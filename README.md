@@ -1,6 +1,6 @@
 # 🚀 MEAN Stack CRUD Application with MySQL Database
 
-This project is a **CRUD (Create, Read, Update, Delete)** application using the **MEAN (MongoDB, Express, Angular, Node.js)** stack with **MySQL** as the database. The application manages an **Employee-Department** relationship with operations such as:
+This project is a **CRUD (Create, Read, Update, Delete)** application using the **MEAN (MySQL, Express, Angular, Node.js)**. The application manages an **Employee-Department** relationship with operations such as:
 
 ✅ Add Department  
 ✅ List Departments  
@@ -19,8 +19,6 @@ The application uses **Bootstrap** for interactive and responsive UI.
 - [⚙️ Technologies Used](#️-technologies-used)
 - [📂 Folder Structure](#-folder-structure)
 - [🚀 Getting Started](#-getting-started)
-- [⚡ API Endpoints](#-api-endpoints)
-- [🐛 Troubleshooting](#-troubleshooting)
 - [📜 License](#-license)
 - [🤝 Contributing](#-contributing)
 - [📧 Contact](#-contact)
@@ -54,7 +52,6 @@ The CRUD application demonstrates managing relationships between **employees** a
 - Node.js
 - Express.js
 - MySQL (Database)
-- Sequelize ORM
 
 ### Frontend
 - Angular
@@ -66,8 +63,7 @@ The CRUD application demonstrates managing relationships between **employees** a
 ## 🚀 Getting Started
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/mean-crud-app.git
-cd mean-crud-app
+https://github.com/chinmay2402/Angular-CRUD-operation-using-NODE
 ```
 ### 2. Backend Setup
 a) Navigate to Backend Directory
